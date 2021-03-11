@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Spartan', sans-serif;
+    font-weight: 700;
+}
+body{
+    background-image: url(./bg-pattern-top-desktop.svg);
+    background-repeat: no-repeat;
+}
+.container{
+    
+}
+.main{
+   
+}
+.lightclr{
+    background-color: hsl(300, 24%, 96%);
+    width: 200px;
+    height: 50px;
+}
+.top{
+   
+}
+.para{
+    margin-left: 2px;
+    color:  hsl(300, 8%, 57%);
+    font-size: 15px;
+    position: absolute;
+    margin-top: 175px;
+}
+.heading{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 100px;
+    font-size: x-large;
+    
+}
+b{
+    margin-left: 10px;
+}
+.reviewStar{
+    height: 40px;
+    width: 400px;
+    background-color:  hsl(300, 24%, 96%);
+    margin-top: 20px;
+    margin-left: 400px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-left: 30px;
+    font-size: 15px;
+    color: hsl(300, 43%, 22%);
+    letter-spacing: 3px;
+}
+.reviewStar2{
+    height: 40px;
+    width: 440px;
+    background-color:  hsl(300, 24%, 96%);
+    margin-top: 20px;
+    margin-left: 460px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-left: 30px;
+    font-size: 15px;
+    color: hsl(300, 43%, 22%);
+    letter-spacing: 3px;
+}
+.reviewStar3{
+    height: 40px;
+    width: 400px;
+    background-color:  hsl(300, 24%, 96%);
+    margin-top: 20px;
+    margin-left: 560px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-left: 30px;
+    font-size: 15px;
+    color: hsl(300, 43%, 22%);
+    letter-spacing: 3px;
+}
+.mid{
+    display: flex;
+    background-image: url(./bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat;
+}
+.box1{
+    margin-top: 70px;
+    margin-left: 100px;
+    width: 350px;
+    height: 220px;
+    background-color: hsl(300, 43%, 22%);
+    padding: 5px 5px;
+    border-radius: 13px;
+}
+.box2{
+    margin-top: 80px;
+    margin-left: 40px;
+    width: 350px;
+    height: 220px;
+    background-color: hsl(300, 43%, 22%);
+    padding: 5px 5px;
+    border-radius: 13px;
+}
+.box3{
+    margin-top: 90px;
+    margin-left: 40px;
+    width: 350px;
+    height: 220px;
+    background-color: hsl(300, 43%, 22%);
+    padding: 5px 5px;
+    border-radius: 13px;
+}
+.imgcolton{
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    border-radius: 50%;
+}
+.colton{
+    margin-top: 20px;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 15px;
+    margin-left: 20px;
+}
+.ver{
+     margin-top: 5px; 
+    color: hsl(333, 80%, 67%);
+    letter-spacing: 1px;
+    font-size: 15px;
+     margin-left: 20px; 
+}
+.text{
+    color:azure;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: lighter;
+    margin-left: 20px; 
+}
+@media screen and (max-width:425px){
+ body{
+     background-image: url(./bg-pattern-top-mobile.svg);
+     background-repeat: no-repeat;
+ }
+ .main{
+   
+}
+    .heading{
+        display: block;
+        margin-left: 20px; 
+        font-weight: 400;
+        font-size: large;
+    }
+    .para{
+        margin-top: 0px;
+        position: relative;
+        font-size: 13px;
+    }
+    b{
+        margin-left: 10px;
+        font-size: 13px;
+    }
+    .reviewStar{
+        padding-left: 50px;
+        margin-left: 15px;
+        width: 260px;
+        letter-spacing: 7px;
+    }
+    .reviewStar2{
+        padding-left: 50px;
+        margin-left: 15px;
+        width: 260px;
+        letter-spacing: 7px;
+    }
+    .reviewStar3{
+        padding-left: 50px;
+        margin-left: 15px;
+        width: 260px;
+        letter-spacing: 7px;
+    }
+    .mid{
+        display: block;
+    }
+    .box1{
+        margin-left: 40px;
+        width: 300px;
+    }
+    .box2{
+        margin-top: 10px;
+        width: 300px;
+    }
+    .box3{
+        margin-top: 10px;
+        width: 300px;
+    }
+    .mid{
+        background-image: url(./bg-pattern-bottom-mobile.svg);
+        background-repeat: no-repeat;
+    }
+
+}
+@media screen and (max-width:1024px){
+    
+          .para{
+                margin-top: 285px;
+            }
+            .mid{
+                margin-top: 50px;
+            }
+        
+    }
