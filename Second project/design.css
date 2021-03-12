@@ -12,7 +12,9 @@ body{
     
 }
 .main{
-   
+    background-image: url(./bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat;
+    background-position-x: right;
 }
 .lightclr{
     background-color: hsl(300, 24%, 96%);
@@ -80,8 +82,7 @@ b{
 }
 .mid{
     display: flex;
-    background-image: url(./bg-pattern-bottom-desktop.svg);
-    background-repeat: no-repeat;
+    
 }
 .box1{
     margin-top: 70px;
@@ -159,41 +160,47 @@ b{
         font-size: 13px;
     }
     b{
-        margin-left: 10px;
+        margin-left: -110px;
+        vertical-align: -20px;
         font-size: 13px;
     }
     .reviewStar{
-        padding-left: 50px;
-        margin-left: 15px;
+        padding-left: 20px;
+        margin-left: 10px;
         width: 260px;
-        letter-spacing: 7px;
+        letter-spacing: 2px;
     }
     .reviewStar2{
-        padding-left: 50px;
-        margin-left: 15px;
+        padding-left: 20px;
+        margin-left: 10px;
         width: 260px;
-        letter-spacing: 7px;
+        letter-spacing: 2px;
     }
     .reviewStar3{
-        padding-left: 50px;
-        margin-left: 15px;
+        padding-left: 20px;
+        margin-left: 10px;
         width: 260px;
-        letter-spacing: 7px;
+        letter-spacing: 2px;
     }
     .mid{
         display: block;
     }
     .box1{
-        margin-left: 40px;
-        width: 300px;
+        margin-left: 20px;
+        height: 200px;
+        width: 280px;
     }
     .box2{
         margin-top: 10px;
-        width: 300px;
+        margin-left: 20px;
+        width: 280px;
+        height: 200px;
     }
     .box3{
+        margin-left: 20px;
         margin-top: 10px;
-        width: 300px;
+        width: 280px;
+        height: 200px;
     }
     .mid{
         background-image: url(./bg-pattern-bottom-mobile.svg);
@@ -201,7 +208,7 @@ b{
     }
 
 }
-@media screen and (max-width:1024px){
+ /* @media screen and (min-width:1024px){
     
           .para{
                 margin-top: 285px;
@@ -210,4 +217,4 @@ b{
                 margin-top: 50px;
             }
         
-    }
+    }  */
